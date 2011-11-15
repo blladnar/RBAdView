@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7011C1E91473248700BE2654 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011C1E81473248700BE2654 /* UIKit.framework */; };
+		7011C1EB1473248700BE2654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011C1EA1473248700BE2654 /* Foundation.framework */; };
+		7011C1ED1473248700BE2654 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011C1EC1473248700BE2654 /* CoreGraphics.framework */; };
+		7011C1F31473248700BE2654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7011C1F11473248700BE2654 /* InfoPlist.strings */; };
+		7011C1F51473248700BE2654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C1F41473248700BE2654 /* main.m */; };
+		7011C1F91473248700BE2654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C1F81473248700BE2654 /* AppDelegate.m */; };
+		7011C1FC1473248700BE2654 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7011C1FA1473248700BE2654 /* MainStoryboard.storyboard */; };
+		7011C1FF1473248700BE2654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C1FE1473248700BE2654 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7011C1E41473248700BE2654 /* AdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7011C1E81473248700BE2654 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7011C1EA1473248700BE2654 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7011C1EC1473248700BE2654 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7011C1F01473248700BE2654 /* AdView-Info.plist */ = {isa = PBXFileReference; path = "AdView-Info.plist"; sourceTree = "<group>"; };
+		7011C1F21473248700BE2654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7011C1F41473248700BE2654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7011C1F61473248700BE2654 /* AdView-Prefix.pch */ = {isa = PBXFileReference; path = "AdView-Prefix.pch"; sourceTree = "<group>"; };
+		7011C1F71473248700BE2654 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7011C1F81473248700BE2654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7011C1FB1473248700BE2654 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7011C1FD1473248700BE2654 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7011C1FE1473248700BE2654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7011C1E11473248700BE2654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7011C1E91473248700BE2654 /* UIKit.framework in Frameworks */,
+				7011C1EB1473248700BE2654 /* Foundation.framework in Frameworks */,
+				7011C1ED1473248700BE2654 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7011C1D91473248700BE2654 = {
+			isa = PBXGroup;
+			children = (
+				7011C1EE1473248700BE2654 /* AdView */,
+				7011C1E71473248700BE2654 /* Frameworks */,
+				7011C1E51473248700BE2654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7011C1E51473248700BE2654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7011C1E41473248700BE2654 /* AdView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7011C1E71473248700BE2654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7011C1E81473248700BE2654 /* UIKit.framework */,
+				7011C1EA1473248700BE2654 /* Foundation.framework */,
+				7011C1EC1473248700BE2654 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7011C1EE1473248700BE2654 /* AdView */ = {
+			isa = PBXGroup;
+			children = (
+				7011C1F71473248700BE2654 /* AppDelegate.h */,
+				7011C1F81473248700BE2654 /* AppDelegate.m */,
+				7011C1FA1473248700BE2654 /* MainStoryboard.storyboard */,
+				7011C1FD1473248700BE2654 /* ViewController.h */,
+				7011C1FE1473248700BE2654 /* ViewController.m */,
+				7011C1EF1473248700BE2654 /* Supporting Files */,
+			);
+			path = AdView;
+			sourceTree = "<group>";
+		};
+		7011C1EF1473248700BE2654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7011C1F01473248700BE2654 /* AdView-Info.plist */,
+				7011C1F11473248700BE2654 /* InfoPlist.strings */,
+				7011C1F41473248700BE2654 /* main.m */,
+				7011C1F61473248700BE2654 /* AdView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7011C1E31473248700BE2654 /* AdView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7011C2021473248700BE2654 /* Build configuration list for PBXNativeTarget "AdView" */;
+			buildPhases = (
+				7011C1E01473248700BE2654 /* Sources */,
+				7011C1E11473248700BE2654 /* Frameworks */,
+				7011C1E21473248700BE2654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdView;
+			productName = AdView;
+			productReference = 7011C1E41473248700BE2654 /* AdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7011C1DB1473248700BE2654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7011C1DE1473248700BE2654 /* Build configuration list for PBXProject "AdView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7011C1D91473248700BE2654;
+			productRefGroup = 7011C1E51473248700BE2654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7011C1E31473248700BE2654 /* AdView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7011C1E21473248700BE2654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7011C1F31473248700BE2654 /* InfoPlist.strings in Resources */,
+				7011C1FC1473248700BE2654 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7011C1E01473248700BE2654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7011C1F51473248700BE2654 /* main.m in Sources */,
+				7011C1F91473248700BE2654 /* AppDelegate.m in Sources */,
+				7011C1FF1473248700BE2654 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7011C1F11473248700BE2654 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7011C1F21473248700BE2654 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7011C1FA1473248700BE2654 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7011C1FB1473248700BE2654 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7011C2001473248700BE2654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7011C2011473248700BE2654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7011C2031473248700BE2654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdView/AdView-Prefix.pch";
+				INFOPLIST_FILE = "AdView/AdView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7011C2041473248700BE2654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdView/AdView-Prefix.pch";
+				INFOPLIST_FILE = "AdView/AdView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7011C1DE1473248700BE2654 /* Build configuration list for PBXProject "AdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7011C2001473248700BE2654 /* Debug */,
+				7011C2011473248700BE2654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7011C2021473248700BE2654 /* Build configuration list for PBXNativeTarget "AdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7011C2031473248700BE2654 /* Debug */,
+				7011C2041473248700BE2654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7011C1DB1473248700BE2654 /* Project object */;
+}
