@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RBAdView.h"
+#import <iAd/iAd.h>
 
 @implementation ViewController
 
@@ -22,6 +24,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   RBAdView *rbBanner = [[RBAdView alloc] initWithFrame:CGRectMake(0, 100, 320, 50)];
+   [rbBanner setBackgroundImage:[UIImage imageNamed:@"RBAd0"] forState:UIControlStateNormal];
+
+   rbBanner.actionBlock = ^(ADBannerView* banner, BOOL willLeaveApp){
+      NSLog(@"Banner will open %@",banner);
+      return YES; 
+   };
+   
+   rbBanner.finishedBlock = ^(ADBannerView* banner){
+      NSLog(@"Banner finished %@",banner);
+   };
+   
+   [self.view addSubview:rbBanner];
 }
 
 - (void)viewDidUnload
@@ -57,4 +72,8 @@
    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)Launch:(id)sender 
+{
+   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://descrumbled.com"]];
+}
 @end

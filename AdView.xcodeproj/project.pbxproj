@@ -15,6 +15,9 @@
 		7011C1F91473248700BE2654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C1F81473248700BE2654 /* AppDelegate.m */; };
 		7011C1FC1473248700BE2654 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7011C1FA1473248700BE2654 /* MainStoryboard.storyboard */; };
 		7011C1FF1473248700BE2654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C1FE1473248700BE2654 /* ViewController.m */; };
+		7011C207147324AA00BE2654 /* RBAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7011C206147324AA00BE2654 /* RBAdView.m */; };
+		7011C209147324FE00BE2654 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011C208147324FE00BE2654 /* iAd.framework */; };
+		7011C20B14732B8500BE2654 /* RBAd0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7011C20A14732B8500BE2654 /* RBAd0@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		7011C1E81473248700BE2654 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7011C1EA1473248700BE2654 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7011C1EC1473248700BE2654 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7011C1F01473248700BE2654 /* AdView-Info.plist */ = {isa = PBXFileReference; path = "AdView-Info.plist"; sourceTree = "<group>"; };
+		7011C1F01473248700BE2654 /* AdView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdView-Info.plist"; sourceTree = "<group>"; };
 		7011C1F21473248700BE2654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7011C1F41473248700BE2654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7011C1F61473248700BE2654 /* AdView-Prefix.pch */ = {isa = PBXFileReference; path = "AdView-Prefix.pch"; sourceTree = "<group>"; };
-		7011C1F71473248700BE2654 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7011C1F61473248700BE2654 /* AdView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdView-Prefix.pch"; sourceTree = "<group>"; };
+		7011C1F71473248700BE2654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7011C1F81473248700BE2654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7011C1FB1473248700BE2654 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7011C1FD1473248700BE2654 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7011C1FD1473248700BE2654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7011C1FE1473248700BE2654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7011C205147324AA00BE2654 /* RBAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBAdView.h; sourceTree = "<group>"; };
+		7011C206147324AA00BE2654 /* RBAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBAdView.m; sourceTree = "<group>"; };
+		7011C208147324FE00BE2654 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7011C20A14732B8500BE2654 /* RBAd0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RBAd0@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7011C209147324FE00BE2654 /* iAd.framework in Frameworks */,
 				7011C1E91473248700BE2654 /* UIKit.framework in Frameworks */,
 				7011C1EB1473248700BE2654 /* Foundation.framework in Frameworks */,
 				7011C1ED1473248700BE2654 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +58,7 @@
 		7011C1D91473248700BE2654 = {
 			isa = PBXGroup;
 			children = (
+				7011C208147324FE00BE2654 /* iAd.framework */,
 				7011C1EE1473248700BE2654 /* AdView */,
 				7011C1E71473248700BE2654 /* Frameworks */,
 				7011C1E51473248700BE2654 /* Products */,
@@ -83,6 +92,8 @@
 				7011C1FD1473248700BE2654 /* ViewController.h */,
 				7011C1FE1473248700BE2654 /* ViewController.m */,
 				7011C1EF1473248700BE2654 /* Supporting Files */,
+				7011C205147324AA00BE2654 /* RBAdView.h */,
+				7011C206147324AA00BE2654 /* RBAdView.m */,
 			);
 			path = AdView;
 			sourceTree = "<group>";
@@ -90,6 +101,7 @@
 		7011C1EF1473248700BE2654 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7011C20A14732B8500BE2654 /* RBAd0@2x.png */,
 				7011C1F01473248700BE2654 /* AdView-Info.plist */,
 				7011C1F11473248700BE2654 /* InfoPlist.strings */,
 				7011C1F41473248700BE2654 /* main.m */,
@@ -150,6 +162,7 @@
 			files = (
 				7011C1F31473248700BE2654 /* InfoPlist.strings in Resources */,
 				7011C1FC1473248700BE2654 /* MainStoryboard.storyboard in Resources */,
+				7011C20B14732B8500BE2654 /* RBAd0@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +176,7 @@
 				7011C1F51473248700BE2654 /* main.m in Sources */,
 				7011C1F91473248700BE2654 /* AppDelegate.m in Sources */,
 				7011C1FF1473248700BE2654 /* ViewController.m in Sources */,
+				7011C207147324AA00BE2654 /* RBAdView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
